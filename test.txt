@@ -50,7 +50,8 @@ git add 网上书店系统需求文档.docx
 git push -u origin master
 
 
-
+密码输错：git config --system --unset credential.helper
+再重连
 
 GIT 出现fatal: Could not read from remote repository.解决
 
