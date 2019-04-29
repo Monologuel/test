@@ -1,0 +1,6 @@
+git init
+git status
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:Monologuel/test.git
+git push -u origin master
