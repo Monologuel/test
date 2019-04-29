@@ -34,6 +34,24 @@ git push -u origin master（上传代码到github远程仓库）
 
 
 
+
+克隆
+使用简介：
+1、配置仓库
+git config --global user.name "wx_bfe0be79b5a74415a9d3b71006919ae6"
+git config --global user.email "wx_bfe0be79b5a74415a9d3b71006919ae6@git.code.tencent.com"
+2、克隆项目
+git clone https://git.code.tencent.com/TestCode/TPADtest.git
+3、添加至本地缓存
+git add 网上书店系统需求文档.docx
+4、为本次缓存贴上标签（标签内容为：添加初始系统需求文档）
+ git commit -m "添加初始系统需求文档"
+5、推送/提交
+git push -u origin master
+
+
+
+
 GIT 出现fatal: Could not read from remote repository.解决
 
 新环境/c/Users/“username”/.ssh目录下是没有id_rsa.pub publickey的，需要新增publickey，
