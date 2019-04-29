@@ -14,14 +14,14 @@ git config --global user.email ""
 
 到项目目录启动git bash
 git init(建立git仓库)
-git status(查看)
+git status(查看当前仓库状态)
 git add README.md(将项目的文件添加到仓库中)
 git commit -m "first commit"(将add的文件commit到仓库,修改说明)
 git remote add origin git@github.com:Monologuel/test.git（将本地的仓库关联到github上）
 git pull --rebase origin master（合并）
 git push -u origin master（上传代码到github远程仓库）
 
-git add . （命令里有个点），将当前目录所有文件标记为需要入库的新文件。输入：git status查看当前仓库状态
+git add . （命令里有个点），将当前目录所有文件标记为需要入库的新文件
 
 https://baijiahao.baidu.com/s?id=1619544681032320225&wfr=spider&for=pc
 
